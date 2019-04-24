@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "burpcraft:wool"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "burpcraft:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block",
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "burpcraft:/dyed/white_wool",
+            "burpcraft:/dyed/orange_wool",
+            "burpcraft:/dyed/magenta_wool",
+            "burpcraft:/dyed/light_blue_wool",
+            "burpcraft:/dyed/yellow_wool",
+            "burpcraft:/dyed/lime_wool",
+            "burpcraft:/dyed/pink_wool",
+            "burpcraft:/dyed/gray_wool",
+            "burpcraft:/dyed/light_gray_wool",
+            "burpcraft:/dyed/cyan_wool",
+            "burpcraft:/dyed/purple_wool",
+            "burpcraft:/dyed/blue_wool",
+            "burpcraft:/dyed/brown_wool",
+            "burpcraft:/dyed/green_wool",
+            "burpcraft:/dyed/red_wool",
+            "burpcraft:/dyed/black_wool"
+        ]
+    }
+}

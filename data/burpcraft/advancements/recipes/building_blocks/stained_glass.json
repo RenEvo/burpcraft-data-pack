@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "burpcraft:stained_glass"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "burpcraft:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block",
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "burpcraft:dyed/white_stained_glass",
+            "burpcraft:dyed/orange_stained_glass",
+            "burpcraft:dyed/magenta_stained_glass",
+            "burpcraft:dyed/light_blue_stained_glass",
+            "burpcraft:dyed/yellow_stained_glass",
+            "burpcraft:dyed/lime_stained_glass",
+            "burpcraft:dyed/pink_stained_glass",
+            "burpcraft:dyed/gray_stained_glass",
+            "burpcraft:dyed/light_gray_stained_glass",
+            "burpcraft:dyed/cyan_stained_glass",
+            "burpcraft:dyed/purple_stained_glass",
+            "burpcraft:dyed/blue_stained_glass",
+            "burpcraft:dyed/brown_stained_glass",
+            "burpcraft:dyed/green_stained_glass",
+            "burpcraft:dyed/red_stained_glass",
+            "burpcraft:dyed/black_stained_glass"
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "burpcraft:concrete_powder"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "burpcraft:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block",
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "burpcraft:dyed/white_concrete_powder",
+            "burpcraft:dyed/orange_concrete_powder",
+            "burpcraft:dyed/magenta_concrete_powder",
+            "burpcraft:dyed/light_blue_concrete_powder",
+            "burpcraft:dyed/yellow_concrete_powder",
+            "burpcraft:dyed/lime_concrete_powder",
+            "burpcraft:dyed/pink_concrete_powder",
+            "burpcraft:dyed/gray_concrete_powder",
+            "burpcraft:dyed/light_gray_concrete_powder",
+            "burpcraft:dyed/cyan_concrete_powder",
+            "burpcraft:dyed/purple_concrete_powder",
+            "burpcraft:dyed/blue_concrete_powder",
+            "burpcraft:dyed/brown_concrete_powder",
+            "burpcraft:dyed/green_concrete_powder",
+            "burpcraft:dyed/red_concrete_powder",
+            "burpcraft:dyed/black_concrete_powder"
+        ]
+    }
+}

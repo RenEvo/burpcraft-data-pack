@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "burpcraft:terracotta"
+        },
+        "O": {
+            "item": "minecraft:cactus_green"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_terracotta",
+        "count": 8
+    },
+    "group": "burpcraft_terracotta"
+}

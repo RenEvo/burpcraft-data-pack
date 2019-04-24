@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "burpcraft:concrete_powder"
+        },
+        "O": {
+            "item": "minecraft:cactus_green"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_concrete_powder",
+        "count": 8
+    },
+    "group": "burpcraft_concrete_powder"
+}

@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "burpcraft:stained_glass"
+        },
+        "O": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
+        "item": "minecraft:red_stained_glass",
+        "count": 8
+    },
+    "group": "burpcraft_stained_glass"
+}

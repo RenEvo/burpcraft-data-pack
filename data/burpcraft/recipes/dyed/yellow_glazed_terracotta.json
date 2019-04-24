@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "burpcraft:glazed_terracotta"
+        },
+        "O": {
+            "item": "minecraft:dandelion_yellow"
+        }
+    },
+    "result": {
+        "item": "minecraft:yellow_glazed_terracotta",
+        "count": 8
+    },
+    "group": "burpcraft_glazed_terracotta"
+}

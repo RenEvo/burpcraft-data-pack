@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "burpcraft:glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "burpcraft:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block",
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "burpcraft:dyed/white_glazed_terracotta",
+            "burpcraft:dyed/orange_glazed_terracotta",
+            "burpcraft:dyed/magenta_glazed_terracotta",
+            "burpcraft:dyed/light_blue_glazed_terracotta",
+            "burpcraft:dyed/yellow_glazed_terracotta",
+            "burpcraft:dyed/lime_glazed_terracotta",
+            "burpcraft:dyed/pink_glazed_terracotta",
+            "burpcraft:dyed/gray_glazed_terracotta",
+            "burpcraft:dyed/light_gray_glazed_terracotta",
+            "burpcraft:dyed/cyan_glazed_terracotta",
+            "burpcraft:dyed/purple_glazed_terracotta",
+            "burpcraft:dyed/blue_glazed_terracotta",
+            "burpcraft:dyed/brown_glazed_terracotta",
+            "burpcraft:dyed/green_glazed_terracotta",
+            "burpcraft:dyed/red_glazed_terracotta",
+            "burpcraft:dyed/black_glazed_terracotta"
+        ]
+    }
+}
