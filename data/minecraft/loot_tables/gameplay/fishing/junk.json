@@ -55,11 +55,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:bamboo",
-                    "weight": 5
-                },
-                {
-                    "type": "item",
                     "name": "minecraft:ink_sac",
                     "weight": 1,
                     "functions": [
@@ -78,7 +73,61 @@
                     "type": "item",
                     "name": "minecraft:rotten_flesh",
                     "weight": 10
-                }
+                },
+                {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                          {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                              "biome": "minecraft:jungle"
+                            }
+                          },
+                          {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                              "biome": "minecraft:jungle_hills"
+                            }
+                          },
+                          {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                              "biome": "minecraft:jungle_edge"
+                            }
+                          },
+                          {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                              "biome": "minecraft:bamboo_jungle"
+                            }
+                          },
+                          {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                              "biome": "minecraft:modified_jungle"
+                            }
+                          },
+                          {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                              "biome": "minecraft:modified_jungle_edge"
+                            }
+                          },
+                          {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                              "biome": "minecraft:bamboo_jungle_hills"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "weight": 10,
+                    "name": "minecraft:bamboo"
+                  }
             ]
         }
     ]
