@@ -2,6 +2,10 @@
 
 This data pack contains tweaks to minecraft for a better experience.
 
+## Installing
+
+[Download the latest release](https://github.com/RenEvo/burpcraft-data-pack/releases/latest) and save it to your `<world directory>/datapacks` directory, you may need to restart your world to pickup the new datapack.
+
 ## Recommended other packs
 
 These packs are recommended for multiplayer servers:
