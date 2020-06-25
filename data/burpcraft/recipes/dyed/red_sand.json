@@ -8,30 +8,30 @@
         {
             "item": "minecraft:sand"
         },
-		{
+        {
             "item": "minecraft:sand"
         },
-		{
+        {
             "item": "minecraft:sand"
         },
-		{
+        {
             "item": "minecraft:sand"
         },
-		{
+        {
             "item": "minecraft:sand"
         },
-		{
+        {
             "item": "minecraft:sand"
         },
-		{
+        {
             "item": "minecraft:sand"
         },
-		{
+        {
             "item": "minecraft:sand"
         },
-		{
-            "item": "minecraft:rose_red"
+        {
+            "item": "minecraft:red_dye"
         }
     ],
-	"group": "sandstone_dyeing"
+    "group": "sandstone_dyeing"
 }

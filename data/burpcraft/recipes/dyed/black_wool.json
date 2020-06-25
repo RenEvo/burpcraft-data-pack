@@ -9,7 +9,7 @@
             "tag": "wool"
         },
         {
-            "item": "minecraft:ink_sac"
+            "item": "minecraft:black_dye"
         }
     ],
     "group": "burpcraft_wool"

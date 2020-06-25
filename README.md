@@ -26,6 +26,7 @@ Added Recipes
 * Uncraft Ice/Packed Ice/Blue Ice
 * Uncraft Netherwart
 * Dye all the things
+* Undye with Ice
 * Coral Block Crafting
 
 ### Smelting
@@ -45,6 +46,7 @@ Gameplay datapack options that are updated.
 
 * Removed Boots from junk
 * Removed Saddles from junk
+* Added Cocoa Beans to Jungle Biome (similar to Bedrock Edition)
 
 ## Loot Tables
 

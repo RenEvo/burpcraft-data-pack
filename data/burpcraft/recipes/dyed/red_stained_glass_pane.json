@@ -10,7 +10,7 @@
             "tag": "burpcraft:stained_glass_pane"
         },
         "O": {
-            "item": "minecraft:rose_red"
+            "item": "minecraft:red_dye"
         }
     },
     "result": {

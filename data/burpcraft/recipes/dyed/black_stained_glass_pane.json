@@ -10,7 +10,7 @@
             "tag": "burpcraft:stained_glass_pane"
         },
         "O": {
-            "item": "minecraft:ink_sac"
+            "item": "minecraft:black_dye"
         }
     },
     "result": {
