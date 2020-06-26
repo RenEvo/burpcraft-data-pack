@@ -32,6 +32,7 @@ Added Recipes
 ### Smelting
 
 * Rotten flesh to leather
+* Basalt to Blackstone
 
 ## Gameplay
 
